@@ -1,0 +1,123 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="26.0.6">
+  <diagram name="Page-1" id="Wup8MF8ntknOTncK2BD_">
+    <mxGraphModel dx="1073" dy="589" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <object label="" Operator="" id="0">
+          <mxCell />
+        </object>
+        <mxCell id="1" parent="0" />
+        <object label="" Operator="" id="yVk4u4xeqx6kGXYaX6_5-4">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+            <mxGeometry x="30" y="80" width="20" height="380" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-5" value="MES Frontend" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="150" y="80" width="100" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="yVk4u4xeqx6kGXYaX6_5-5">
+          <mxGeometry x="45" y="80" width="10" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-10" value="Получение списка Заказов" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="yVk4u4xeqx6kGXYaX6_5-5" target="yVk4u4xeqx6kGXYaX6_5-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="255" as="targetPoint" />
+            <mxPoint x="40" y="255" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-6" value="MES API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="100" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="yVk4u4xeqx6kGXYaX6_5-6">
+          <mxGeometry x="45" y="50" width="10" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-9" value="Запрос списка заказов" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="yVk4u4xeqx6kGXYaX6_5-8" parent="1" source="yVk4u4xeqx6kGXYaX6_5-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="165" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-12" value="Кеш&lt;br&gt;Redis" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="yVk4u4xeqx6kGXYaX6_5-12">
+          <mxGeometry x="45" y="140" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-19" value="Получение &lt;br&gt;списка заказов &lt;br&gt;из кеша" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="yVk4u4xeqx6kGXYaX6_5-18" parent="yVk4u4xeqx6kGXYaX6_5-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="100" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="100" />
+              <mxPoint x="85" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="yVk4u4xeqx6kGXYaX6_5-12">
+          <mxGeometry x="45" y="40" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="yVk4u4xeqx6kGXYaX6_5-12">
+          <mxGeometry x="45" y="200" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="yVk4u4xeqx6kGXYaX6_5-12">
+          <mxGeometry x="45" y="330" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-14" value="MES DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="700" y="80" width="100" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-26" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="yVk4u4xeqx6kGXYaX6_5-14">
+          <mxGeometry x="45" y="190" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-17" value="Запрос списка заказов" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="yVk4u4xeqx6kGXYaX6_5-6" source="yVk4u4xeqx6kGXYaX6_5-8">
+          <mxGeometry x="0.0018" relative="1" as="geometry">
+            <mxPoint x="210" y="200" as="sourcePoint" />
+            <mxPoint x="365" y="200.00000000000023" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-16" value="Получение списка Заказов" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" target="yVk4u4xeqx6kGXYaX6_5-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="280" as="targetPoint" />
+            <mxPoint x="385" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-21" value="Запрос списка заказов" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0018" relative="1" as="geometry">
+            <mxPoint x="400" y="150" as="sourcePoint" />
+            <mxPoint x="560" y="150" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-22" value="&amp;nbsp; &amp;nbsp;Возвращение списка Заказов&lt;br&gt;из кеша" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1">
+          <mxGeometry x="0.0031" relative="1" as="geometry">
+            <mxPoint x="400" y="240" as="targetPoint" />
+            <mxPoint x="565" y="240" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-25" value="Кеш-промах" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="yVk4u4xeqx6kGXYaX6_5-14">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="580" y="290" as="sourcePoint" />
+            <mxPoint x="660" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-27" value="Возвращение &lt;br&gt;актуального &lt;br&gt;списка Заказов" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="380" as="sourcePoint" />
+            <mxPoint x="569.810344827586" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-29" value="Обновление кеша" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="yVk4u4xeqx6kGXYaX6_5-28" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="390" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="605" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yVk4u4xeqx6kGXYaX6_5-30" value="Возвращение списка Заказов &lt;br&gt;из кеша" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="430" as="sourcePoint" />
+            <mxPoint x="399.9966666666665" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
